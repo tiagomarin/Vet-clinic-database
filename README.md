@@ -1,7 +1,7 @@
 # curriculum-databases-projects-template
 
-> This template should be used for database related projects at Microverse.
-> Generate your own repository, update this README and edit all files content while working on projects. You should not be adding any new files unless asked otherwise.
+This repository was used to practice SQL database during my Microverse program.
+I followed some requirements and used SQL on the command line on the terminal, then I copied the code I used in the files of this repository and also took print screens of terminal and posted in the pull requests.
 
 
 ## Getting Started
@@ -15,17 +15,11 @@ This repository includes files with plain SQL that can be used to recreate a dat
 
 ## Authors
 
-👤 **Author1**
+👤 **Tiago Lelinski Marin**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@tiagomarin](https://github.com/tiagomarin)
+- Twitter: [@LelinskiMarin](https://twitter.com/LelinskiMarin)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/tiagomarin/)
 
 ## 🤝 Contributing
 
