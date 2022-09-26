@@ -74,7 +74,6 @@ FROM animals
 WHERE date_of_birth BETWEEN 'Jan 1,1990' AND 'Dec 31,2000'
 GROUP BY species;
 
--------------------------------------------
 -- 3rd task
 
 -- What animals belong to Melody Pond?
@@ -86,3 +85,5 @@ WHERE owner_id = ;
 -- List all Digimon owned by Jennifer Orwell.
 -- List all animals owned by Dean Winchester that haven't tried to escape.
 -- Who owns the most animals?
+
+SELECT * FROM animals WHERE weight_kg BETWEEN 10.4 AND 17.3;
