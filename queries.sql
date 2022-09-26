@@ -77,3 +77,5 @@ SELECT AVG(escape_attempts)
 FROM animals
 WHERE date_of_birth BETWEEN 'Jan 1,1990' AND 'Dec 31,2000'
 GROUP BY species;
+
+SELECT * FROM animals WHERE weight_kg BETWEEN 10.4 AND 17.3;
