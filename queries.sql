@@ -1,5 +1,6 @@
 /*Queries that provide answers to the questions from all projects.*/
 
+-------------------------------------------
 -- 1st task
 SELECT * FROM animals WHERE name LIKE '%mon';
 SELECT name FROM animals WHERE date_of_birth BETWEEN '2016/01/01' AND '2019/12/31';
@@ -10,8 +11,8 @@ SELECT * FROM animals WHERE neutered = TRUE;
 SELECT * FROM animals WHERE name != 'Gabumon';
 SELECT * FROM animals WHERE weight_kg BETWEEN 10.4 AND 17.3;
 
+-------------------------------------------
 -- 2nd task
-
 -- part 1
 BEGIN;
 -- try rolback
@@ -42,22 +43,17 @@ SELECT * FROM animals;
 BEGIN;
 DELETE FROM animals
 WHERE date_of_birth > 'Jan 1, 2022';
-
 SAVEPOINT deletion;
-
 UPDATE animals 
 SET weight_kg = weight_kg * -1;
 ROLLBACK TO deletion;
-
 UPDATE animals 
 SET weight_kg = weight_kg * -1
 WHERE weight_kg < 0;
-
 COMMIT;
 SELECT * FROM animals;
 
 -- part 4 questions
-
 -- How many animals are there?
 SELECT COUNT(*) FROM animals;
 -- How many animals have never tried to escape?
@@ -77,5 +73,17 @@ SELECT AVG(escape_attempts)
 FROM animals
 WHERE date_of_birth BETWEEN 'Jan 1,1990' AND 'Dec 31,2000'
 GROUP BY species;
+
+-- 3rd task
+
+-- What animals belong to Melody Pond?
+SELECT COUNT(*) FROM animals;
+WHERE owner_id = ;
+-- List of all animals that are pokemon (their type is Pokemon).
+-- List all owners and their animals, remember to include those that don't own any animal.
+-- How many animals are there per species?
+-- List all Digimon owned by Jennifer Orwell.
+-- List all animals owned by Dean Winchester that haven't tried to escape.
+-- Who owns the most animals?
 
 SELECT * FROM animals WHERE weight_kg BETWEEN 10.4 AND 17.3;
