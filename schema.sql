@@ -9,6 +9,7 @@ CREATE TABLE animals (
   escape_attempts INT NOT NULL,
   neutered BOOLEAN NOT NULL,
   weight_kg DECIMAL NOT NULL
+
 );
 
 -------------------------------------------
@@ -45,6 +46,7 @@ ADD CONSTRAINT fk_owner_id
 FOREIGN KEY (owner_id)
 REFERENCES owners(id)
 ON DELETE CASCADE;
+
 
 -------------------------------------------
 -- 4th task

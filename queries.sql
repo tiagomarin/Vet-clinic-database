@@ -74,7 +74,6 @@ FROM animals
 WHERE date_of_birth BETWEEN 'Jan 1,1990' AND 'Dec 31,2000'
 GROUP BY species;
 
--------------------------------------------
 -- 3rd task
 -- What animals belong to Melody Pond?
 SELECT (name) FROM animals
